@@ -124,8 +124,8 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; 
+  font-family: "Slabo 13px", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff; 
   background-color: #046380;
 }
 
@@ -393,6 +393,34 @@ hr {
   display: table;
   clear: both; }
 
+/* My Stuff
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.linko{
+  text-align: center;
+}
+.linko svg{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.linko:hover a svg > .icon,
+.linko a:hover
+{ 
+  transition: 1s;
+  fill: white; 
+  color: white;
+}
+.linko a{
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+}
+
+h2.connect{text-align: center;}
+
+.big-text{
+  font-size: 140%;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
